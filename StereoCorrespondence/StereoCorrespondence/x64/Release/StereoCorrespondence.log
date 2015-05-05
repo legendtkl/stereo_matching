@@ -1,0 +1,75 @@
+﻿生成启动时间为 2015/3/4 21:33:47。
+     1>项目“D:\coding\stereo\StereoCorrespondence\StereoCorrespondence\StereoCorrespondence.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\StereoCorrespondence.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt Disparity.cpp
+         Disparity.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(417): warning C4267: “参数”: 从“size_t”转换到“cvflann::lsh::FeatureIndex”，可能丢失数据
+     1>c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(425): warning C4267: “参数”: 从“size_t”转换到“cvflann::lsh::FeatureIndex”，可能丢失数据
+     1>C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+     1>Disparity.cpp(30): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>Disparity.cpp(31): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>Disparity.cpp(32): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>Disparity.cpp(206): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Disparity.cpp(206): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Disparity.cpp(293): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Disparity.cpp(293): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>Disparity.cpp(300): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Disparity.cpp(321): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(260): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+                 c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(258): 编译类 模板 成员函数“void cvflann::lsh::LshTable<ElementType>::initialize(size_t)”时
+                 with
+                 [
+                     ElementType=unsigned char
+                 ]
+                 c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(329): 参见对正在编译的类 模板 实例化“cvflann::lsh::LshTable<ElementType>”的引用
+                 with
+                 [
+                     ElementType=unsigned char
+                 ]
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\StereoCorrespondence.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt StereoCorrespondence.cpp
+         StereoCorrespondence.cpp
+     1>c:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(417): warning C4267: “参数”: 从“size_t”转换到“cvflann::lsh::FeatureIndex”，可能丢失数据
+     1>c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(425): warning C4267: “参数”: 从“size_t”转换到“cvflann::lsh::FeatureIndex”，可能丢失数据
+     1>C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 C:\Program Files\opencv\build\include\opencv2/flann/flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+     1>StereoCorrespondence.cpp(152): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>StereoCorrespondence.cpp(209): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>StereoCorrespondence.cpp(160): warning C4101: “ss”: 未引用的局部变量
+     1>c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(260): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+                 c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(258): 编译类 模板 成员函数“void cvflann::lsh::LshTable<ElementType>::initialize(size_t)”时
+                 with
+                 [
+                     ElementType=unsigned char
+                 ]
+                 c:\program files\opencv\build\include\opencv2\flann\lsh_table.h(329): 参见对正在编译的类 模板 实例化“cvflann::lsh::LshTable<ElementType>”的引用
+                 with
+                 [
+                     ElementType=unsigned char
+                 ]
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\coding\stereo\StereoCorrespondence\x64\Release\StereoCorrespondence.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d231.lib opencv_contrib231.lib opencv_core231.lib opencv_features2d231.lib opencv_flann231.lib opencv_gpu231.lib opencv_highgui231.lib opencv_imgproc231.lib opencv_legacy231.lib opencv_ml231.lib opencv_objdetect231.lib opencv_ts231.lib opencv_video231.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\StereoCorrespondence.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\coding\stereo\StereoCorrespondence\x64\Release\StereoCorrespondence.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\coding\stereo\StereoCorrespondence\x64\Release\StereoCorrespondence.lib" /MACHINE:X64 x64\Release\Disparity.obj
+         x64\Release\stdafx.obj
+         x64\Release\StereoCorrespondence.obj
+         正在生成代码
+     1>d:\coding\stereo\stereocorrespondence\stereocorrespondence\disparity.cpp(202): warning C4715: “Disparity::computeDistance2Image”: 不是所有的控件路径都返回值
+     1>d:\coding\stereo\stereocorrespondence\stereocorrespondence\disparity.cpp(159): warning C4715: “Disparity::computeDistance”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         StereoCorrespondence.vcxproj -> D:\coding\stereo\StereoCorrespondence\x64\Release\StereoCorrespondence.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\coding\stereo\StereoCorrespondence\x64\Release\StereoCorrespondence.exe;#1" /manifest x64\Release\StereoCorrespondence.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\StereoCorrespondence.unsuccessfulbuild”。
+         正在对“x64\Release\StereoCorrespondence.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\coding\stereo\StereoCorrespondence\StereoCorrespondence\StereoCorrespondence.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.63
